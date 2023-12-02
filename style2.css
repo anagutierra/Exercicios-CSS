@@ -1,0 +1,10 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .primeiros input:focus {
+        box-shadow: 1px 1px 1px 1px darkcyan;
+        outline: none;
+        border: 2px;
+    }
+ 
