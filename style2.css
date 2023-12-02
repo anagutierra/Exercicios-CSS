@@ -2,9 +2,23 @@
         margin: 0;
         padding: 0;
     }
-    .primeiros input:focus {
-        box-shadow: 1px 1px 1px 1px darkcyan;
+
+   .primeiros input:focus {
+        box-shadow: 4px 4px 4px 4px rgba(0, 139, 139, 0.473);
         outline: none;
         border: 2px;
     }
- 
+    input:checked + p {
+        background-color: rgba(118, 243, 243, 0.418);
+        color: black; 
+    }
+    .final {
+        color: white;
+    }
+
+    p, h1, button, .confirmacao {
+        margin: 10px 0 10px 10px 
+    }
+    li {
+        margin-left: 25px 
+    }
