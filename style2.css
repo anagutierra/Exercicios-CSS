@@ -6,6 +6,16 @@
         display: flex;
         justify-content: center;
     }
+    body > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .conteiner {
+        flex-direction: column;
+        align-items: center;
+        max-width: 500px;
+    }
     .grid {
         display: flex;
         flex-direction:row;
@@ -32,13 +42,20 @@
     .final {
         color: white;
     }
-
-    p, h1, button, .confirmacao {
-        margin: 10px 0 10px 10px;
+    div, p, h1, button, .confirmacao {
+        margin: 10px 0 10px 10px;       
     }
     li {
         margin-left: 25px;
     }
-    h1 {
+    h1, .titulos {
         text-align: center;
+    }
+    input:not(input[type=checkbox]), button{
+        width: 100%;
+        padding: 10px;
+    }
+    button {
+        background-color: #9debf5;
+        border: none;
     }
