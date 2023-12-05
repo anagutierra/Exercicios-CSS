@@ -2,7 +2,24 @@
         margin: 0;
         padding: 0;
     }
-
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    .grid {
+        display: flex;
+        flex-direction:row;
+        justify-content: center;
+    }
+    .grid .col {
+        display: flex;
+        align-items:center;
+        justify-content: center;
+        width: 100px;
+        height: 100px;
+        background: #9debf5;
+        margin: 15px;
+    }
    .primeiros input:focus {
         box-shadow: 4px 4px 4px 4px rgba(0, 139, 139, 0.473);
         outline: none;
@@ -17,8 +34,11 @@
     }
 
     p, h1, button, .confirmacao {
-        margin: 10px 0 10px 10px 
+        margin: 10px 0 10px 10px;
     }
     li {
-        margin-left: 25px 
+        margin-left: 25px;
+    }
+    h1 {
+        text-align: center;
     }
