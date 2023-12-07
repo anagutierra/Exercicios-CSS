@@ -27,8 +27,8 @@
         justify-content: center;
         width: 100px;
         height: 100px;
-        background: #9debf5;
         margin: 15px;
+       
     }
    .primeiros input:focus {
         box-shadow: 4px 4px 4px 4px rgba(0, 139, 139, 0.473);
@@ -58,4 +58,13 @@
     button {
         background-color: #9debf5;
         border: none;
+    }
+    img {
+        width: 100px;
+        height: 100px;  
+        transition: 500ms ease-in-out;
+    }
+    img:hover {
+        scale: 1.5;
+        cursor: pointer;
     }
